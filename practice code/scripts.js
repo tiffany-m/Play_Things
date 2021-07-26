@@ -268,3 +268,21 @@ fizzBuzz()
 
 https://medium.com/@sojibrahmatuzzaman/10-common-javascript-interview-challenges-f2547db5370b
 
+#1 Palindrome
+
+definition:- Palindrome is a word, sentence or character sequence which reads the same as we reverse it. Like- “mam”, “racecar” etc.
+
+PROBLEM:- Write a function that will check the string is a palindrome or not.
+
+function isPal(a) {
+  let b = a.split('').reverse().join('')
+
+  if(a === b) {
+    console.log('true')
+  } else {
+    console.log(false)
+  }
+}
+
+isPal('aabaa')
+isPal('kjfgh')
