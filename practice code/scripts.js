@@ -286,3 +286,16 @@ function isPal(a) {
 
 isPal('aabaa')
 isPal('kjfgh')
+
+#5 Find the Vowels
+
+It’s not that kind of challenging compared to others. but that doesn’t detract from the fact that you could come across it during a job interview.
+
+PROBLEM:- write a function that takes a string as an argument and returns the number of vowels contained in that string.
+
+The vowels are “a”, “e”, “i”, “o”, “u”.
+
+Examples:
+
+findVowels('hello') // --> 2
+findVowels('why') // --> 0
