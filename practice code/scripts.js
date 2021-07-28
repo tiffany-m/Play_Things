@@ -295,7 +295,16 @@ PROBLEM:- write a function that takes a string as an argument and returns the nu
 
 The vowels are “a”, “e”, “i”, “o”, “u”.
 
-Examples:
+function findVowels(str){
+        let count = 0;
+        let vowel = ['a', 'e', 'i', 'o', 'u'];        
+        for (let char of str.toLowerCase()) {
+           if (vowel.includes(char)) {
+                count++;
+            }
+          }
+return count;
+}
 
-findVowels('hello') // --> 2
-findVowels('why') // --> 0
+findVowels('hello')
+ 
