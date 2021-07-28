@@ -307,4 +307,19 @@ return count;
 }
 
 findVowels('hello')
- 
+
+#6 String Reverse
+
+PROBLEM:- Write a function that takes a string as an argument and return a reverse version of the given string. 
+
+function reverse(str) {
+  let newStr = str.split('').reverse().join('')
+  return newStr 
+}
+
+reverse('hello')
+
+#7 Title Case a String
+
+PROBLEM:- Write a function which takes a string of two or more word and capitalize the first letter of each word.
+
